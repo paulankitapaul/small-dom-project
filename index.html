@@ -20,7 +20,7 @@
 
             <!-- Home -->
             <div>
-                <a href="#" class="text-2xl font-bold text-blue-600">
+                <a href="#" class="text-2xl font-bold text-blue-600" id="home">
                     Home
                 </a>
             </div>
@@ -68,7 +68,7 @@
 
 
         <!-- Cards Container -->
-        <section class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-6" id="cards-section">
 
             <!-- Card 1: Add Money -->
             <div class="bg-white p-5 sm:p-6 rounded-2xl shadow-md
@@ -132,6 +132,52 @@
             </div>
 
         </section>
+        
+<section class="max-w-md mx-auto mt-10 p-6 bg-white shadow-xl rounded-2xl hidden" id="new-section">
+
+    <h2 class="text-2xl font-bold text-center mb-6">
+        DOM Practice
+    </h2>
+
+    <div class="space-y-4">
+
+        <div>
+            <label class="label font-semibold mb-1">
+                What is DOM?
+            </label>
+            <input
+                type="text"
+                placeholder="What is DOM?"
+                class="input input-bordered w-full"
+            />
+        </div>
+
+        <div>
+            <label class="label font-semibold mb-1">
+                How to use DOM?
+            </label>
+            <input
+                type="text"
+                placeholder="How to use DOM?"
+                class="input input-bordered w-full"
+            />
+        </div>
+
+        <div>
+            <label class="label font-semibold mb-1">
+                What is getElementById()?
+            </label>
+            <input
+                type="text"
+                placeholder="What is getElementById()?"
+                class="input input-bordered w-full"
+            />
+        </div>
+
+    </div>
+
+</section>
+
 
     </main>
     <!-- The button to open modal -->
@@ -165,6 +211,7 @@
     </dialog>
     <script src="./js/ad-money.js"></script>
     <script src="cashout.js"></script>
+    <script src="home.js"></script>
 
 </body>
 
